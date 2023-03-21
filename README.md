@@ -6,4 +6,4 @@ I'm a fullstack software developer and STEM educator. I love programming, and it
 
 # Links
 If you're viewing this, check me out on <a href="https://www.linkedin.com/in/zackery-perski/">linkedin</a></br>
-Or check out <a href="">my site</a> to view some of my other works!
+Or check out <a href="">my site</a> to view what this repository is about.
