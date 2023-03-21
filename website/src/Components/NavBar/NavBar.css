@@ -1,0 +1,13 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigationPadding{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.navigation img{
+    width: 40px;
+}
