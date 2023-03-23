@@ -1,6 +1,6 @@
 .navigation{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     height:50px;
     background-color: rgb(47, 50, 53);
     padding-top:1rem;
@@ -10,6 +10,14 @@
     background-image: url("../../Banner.png");
     background-repeat: no-repeat;
     background-size:cover
+}
+
+.navigationLeft{
+    width:50%;
+}
+.navigationRight{
+    width:50%;
+    text-align: right;
 }
 
 .navigation a{
@@ -36,7 +44,7 @@
 
 .navigation img{
     width:90px;
-    position: fixed;
+    position:relative;
     left: 2rem;
 }
 

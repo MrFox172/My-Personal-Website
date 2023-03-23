@@ -16,12 +16,14 @@ function NavBar() {
 
   return (
     <div className="navigation">
-      <img src={logo} onClick={goHome}/>
+      <div className="navigationLeft"><img src={logo} onClick={goHome}/></div>
+      <div className="navigationRight">
       <span>
         <a href="/" className="navigationPadding">{home}</a>
         <a href="/projects" className="navigationPadding">{projects}</a>
         <a href="/resume" className="navigationPadding">{resume}</a>
       </span>
+      </div>
     </div>
   )
 }
