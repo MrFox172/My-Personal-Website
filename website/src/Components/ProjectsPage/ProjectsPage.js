@@ -4,7 +4,6 @@ import NavBar from '../NavBar/NavBar'
 function ProjectsPage() {
   return (
     <div>
-        <NavBar/>
         ProjectsPage
     </div>
   )

@@ -1,1 +1,4 @@
-
+body{
+  font-family:'comic sans';
+  background: no-repeat center center fixed linear-gradient(to bottom right, rgb(255, 255, 255), rgba(211, 211, 211, 0.548), rgb(61, 61, 61));
+}

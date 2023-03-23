@@ -1,6 +1,32 @@
 .navigation{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    height:50px;
+    background-color: rgb(47, 50, 53);
+    padding-top:1rem;
+    padding-right:2rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-image: url("../../Banner.png");
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+.navigation a{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #028C0C;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(201, 201, 201);
+}
+
+.navigation a:hover{
+    color: #ffffff;
+    font-weight:900;
+    text-shadow: 0rem 0rem 4px white;
 }
 
 .navigationPadding{
@@ -9,5 +35,11 @@
 }
 
 .navigation img{
-    width: 40px;
+    width:90px;
+    position: fixed;
+    left: 2rem;
+}
+
+.navigation img:hover{
+    cursor: pointer;
 }

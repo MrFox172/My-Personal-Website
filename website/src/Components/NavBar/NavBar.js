@@ -1,15 +1,26 @@
 import React from 'react'
-import logo from '../../logo.svg'
+import { useNavigate } from 'react-router-dom'
+import logo from '../../logo.png'
 import './NavBar.css'
 
 function NavBar() {
+  const home = "{Home}"
+  const projects = "{Projects}"
+  const resume = "{Resume}"
+  const navigate = useNavigate();
+
+  const goHome = () =>
+  {
+    navigate("/");
+  }
+
   return (
     <div className="navigation">
-      <img src={logo}/>
+      <img src={logo} onClick={goHome}/>
       <span>
-        <a href="/" className="navigationPadding">Home</a>
-        <a href="/projects" className="navigationPadding">Projects</a>
-        <a href="/resume" className="navigationPadding">Resume</a>
+        <a href="/" className="navigationPadding">{home}</a>
+        <a href="/projects" className="navigationPadding">{projects}</a>
+        <a href="/resume" className="navigationPadding">{resume}</a>
       </span>
     </div>
   )
